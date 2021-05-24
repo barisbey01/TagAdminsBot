@@ -9,6 +9,20 @@ Hey {}
 I'm @{}, a simple bot to Tag All Admins in a \
 group easily by typing @admin or @admins
 
+        reply_markup=InlineKeyboardMarkup(
+            [ 
+                [
+                    InlineKeyboardButton(
+                        "➕ Beni Grubunuza Ekleyin ➕", url="t.me/delilermuzikbot?startgroup=true")
+                  ],[
+                    InlineKeyboardButton(
+                        "👑SAHİBİM👑", url="t.me/Barisbey01"
+                    )
+                ]
+            ]
+        )
+    )
+
 /help - Show help message
 ❤️ Source Code - [Github](https://github.com/Skuzzers/TagAdminsBot)
 
